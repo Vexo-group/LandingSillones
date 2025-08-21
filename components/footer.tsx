@@ -48,11 +48,11 @@ export function Footer() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-neutral-900 mb-4">KATACHI</h3>
-              <p className="text-neutral-600 mb-6 leading-relaxed">
-                Architected in Belgium, built to last. We create timeless furniture pieces in solid oak, steel, and
-                linen for spaces that breathe.
-              </p>
+              <h3 className="text-2xl font-bold text-neutral-900 mb-4">Vexo Studio</h3>
+                <p className="text-neutral-600 mb-6 leading-relaxed">
+                Diseñado en Bélgica, construido para durar. Creamos piezas de mobiliario atemporales en roble macizo, 
+                acero y lino para espacios que inspiran.
+                </p>
               <div className="flex space-x-4">
                 {socialLinks.map((social) => (
                   <motion.a
